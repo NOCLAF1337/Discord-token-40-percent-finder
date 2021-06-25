@@ -5,12 +5,11 @@ This Python tool will find the first 40% of a discord token using an ID.
 
 This script requires Python 3 : http://python.org
 
-<ol>
+
 Install the required dependencies :
   ```
   pip install -U -r requirements.txt
   ```
-</ol>
 
 
 
