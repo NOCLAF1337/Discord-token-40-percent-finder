@@ -1,7 +1,7 @@
 # Discord-token-40-percent-finder
 This Python tool will find the first 40% of a discord token using an ID.
 
-<>Installation :</h2>
+<h2>Installation :</h2>
 
 This script requires Python 3 : http://python.org
 
