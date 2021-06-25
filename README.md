@@ -11,7 +11,10 @@ Install the required dependencies :
   pip install -U -r requirements.txt
   ```
 
-
+Launch main.py :
+  ```
+  python main.py
+  ```
 
 
 
