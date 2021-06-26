@@ -1,4 +1,4 @@
-import base64
+from base64 import b64encode
 
 print(''' 
  _  _  _____  ___  __      __    ____  __  ___  ___  ___ 
@@ -11,7 +11,7 @@ print('''
 
 ID = input("Enter the ID : ")
 
-Token = base64.b64encode(bytes(ID, 'utf-8'))
+Token = b64encode(bytes(ID, 'utf-8'))
 
 Token = Token.decode("utf-8")
 
