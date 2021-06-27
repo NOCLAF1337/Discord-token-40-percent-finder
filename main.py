@@ -9,10 +9,25 @@ print('''
  
  ''')
 
-ID = input("Enter the ID : ")
+i = True
+n = True
 
-Token = b64encode(bytes(ID, 'utf-8'))
+class token:
+    def __init__(self, ID):
+        self.Token = b64encode(bytes(ID, 'utf-8'))
+        self.Token = self.Token.decode("utf-8")
 
-Token = Token.decode("utf-8")
-
-print('the first 40% of the ID' ,ID, 'token is', Token)
+while i:
+    Answer = token(input("Enter the ID : "))
+    print('the first 40% of this ID token is', Answer.Token)
+    while n == True:
+        loop = input('another one ? (yes/no) : ')
+        if loop == "yes":
+            i=True
+            break
+        if loop == "no":
+            i=False
+            break
+        else:
+            print("please enter yes or no")
+            pass
