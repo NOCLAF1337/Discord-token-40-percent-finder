@@ -20,7 +20,7 @@ class token:
 while i:
     Answer = token(input("Enter the ID : "))
     print('the first 40% of this ID token is', Answer.Token)
-    while n == True:
+    while n:
         loop = input('another one ? (yes/no) : ')
         if loop == "yes":
             i=True
